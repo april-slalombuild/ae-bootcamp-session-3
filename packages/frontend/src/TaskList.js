@@ -27,6 +27,18 @@ function TaskList({ onEdit }) {
     });
   };
 
+  const getPriorityChipSx = (priority) => {
+    const color = priority === 'P1' ? '#07f2e6' : '#7a7a7a';
+    return {
+      height: 20,
+      fontSize: '0.7rem',
+      fontWeight: 600,
+      backgroundColor: color,
+      color: priority === 'P1' ? '#000' : '#fff',
+      '& .MuiChip-label': { px: 1 }
+    };
+  };
+
   const fetchTasks = async () => {
     try {
       setLoading(true);
@@ -203,6 +215,11 @@ function TaskList({ onEdit }) {
                 gap: 1
               }}
             >
+              <Chip
+                label={task.priority || 'P3'}
+                size="small"
+                sx={getPriorityChipSx(task.priority || 'P3')}
+              />
               {task.due_date && (
                 <Chip
                   icon={<EventIcon sx={{ fontSize: 14 }} />}
