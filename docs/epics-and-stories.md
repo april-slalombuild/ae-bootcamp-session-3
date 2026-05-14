@@ -1,4 +1,4 @@
-# Epics and Stories - Todo App
+# Epics and Stories - Todo App :)
 
 ## Epics
 
