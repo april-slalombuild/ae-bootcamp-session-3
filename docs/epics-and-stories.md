@@ -18,7 +18,7 @@
 - Task Sorting
 
 ## Stories
-### Stories
+### Story
 
 ### MVP
 
