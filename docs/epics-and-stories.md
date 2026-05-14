@@ -1,6 +1,7 @@
 # Epics and Stories - Todo App :)
 
 ## Epics
+### Epics
 
 ### MVP
 
@@ -17,6 +18,7 @@
 - Task Sorting
 
 ## Stories
+### Stories
 
 ### MVP
 
@@ -70,6 +72,7 @@
 - Sort undated tasks last.
 
 ## Acceptance Criteria
+### Acceptance Criteria
 
 ### MVP
 
@@ -127,7 +130,7 @@
 - Tasks without due dates appear last.
 
 ## Technical Requirements
-
+### Technical Requirements
 ### Current Implementation Baseline
 
 - Frontend task creation and editing currently happen in `packages/frontend/src/TaskForm.js`.
